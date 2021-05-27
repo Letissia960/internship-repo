@@ -1,0 +1,47 @@
+body {
+  background-color: lightcyan;
+}
+
+Table {
+  table-layout: initial;
+  width: 500px;
+}
+Table,
+th,
+tr,
+td {
+  border: 1px solid transparent;
+  border-bottom: 2pt solid grey;
+  padding: 20px;
+  text-align: left;
+  align-self: start;
+  row-gap: 15px;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: lightcoral;
+}
+
+@media screen and (max-width: 1200px) {
+  Table {
+    table-layout: inherit;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-bottom: 2pt solid grey;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  Table {
+    table-layout: inherit;
+    width: 30px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-bottom: 2pt solid grey;
+    margin: 0px;
+  }
+}

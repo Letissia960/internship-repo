@@ -1,0 +1,7 @@
+{
+  "name": "task-1-on-browser",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

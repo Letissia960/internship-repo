@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.task-1-on-browser",
+  "appName": "task-1-on-browser",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

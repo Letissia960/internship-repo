@@ -1,0 +1,24 @@
+div {
+  align-items: center;
+  width: 550px;
+  margin: 1%;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  div {
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  div {
+    align-items: center;
+    margin: 2pt;
+    width: 300px;
+    border: none;
+  }
+}

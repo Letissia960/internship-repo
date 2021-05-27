@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "task-1-on-browser",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
